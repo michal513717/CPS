@@ -65,7 +65,7 @@ for i=1:100
     title('Wiersze i kolumny macierzy A i S (DCT i IDCT)');
     legend('wiersze A=DCT','kolumny S=IDCT');
     fprintf(' %u Wiersz A / Kolumna S %u\n', i);
-    pause
+    pause(0.1);
     hold off;
 end
 
